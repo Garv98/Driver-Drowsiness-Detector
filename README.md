@@ -56,55 +56,15 @@ Drowsiness-Landmark-Detection/
   </div>
 
   <div class="section">
-    <h2>⚙️ Installation</h2>
-    <ol>
-      <li><strong>Clone the repo</strong>
-        <pre><code>git clone https://github.com/Garv98/Drowsiness-Landmark-Detection.git
-cd Drowsiness-Landmark-Detection</code></pre>
-      </li>
-      <li><strong>Create a virtual environment</strong> (recommended)
-        <pre><code>python -m venv venv
-./venv/Scripts/Activate.ps1        # Windows</code></pre>
-      </li>
-      <li><strong>Install dependencies</strong>
-        <pre><code>pip install -r requirements.txt</code></pre>
-      </li>
-      <li><strong>(Optional) Add alarm sound</strong> Place <code>alarm.wav</code> under the <code>Assets/</code> folder to enable a custom audio alert. Otherwise, the app will fallback to text-to-speech.</li>
-    </ol>
-  </div>
-
-  <div class="section">
-    <h2>▶️ Usage</h2>
-    <h3>Real-Time Detection</h3>
-    <p>Launch the Streamlit app and select <strong>Real-Time Detection</strong>:</p>
-    <pre><code>streamlit run drowsiness_detector/app.py</code></pre>
-    <ul>
-      <li>A webcam stream will start.</li>
-      <li>If sustained drowsiness is detected (over consecutive frames), you'll see:
-        <ul>
-          <li>A red flash overlay</li>
-          <li>An audio alarm or TTS message</li>
-          <li>Confetti animation</li>
-          <li>Trivia prompt in the sidebar</li>
-          <li>A button to confirm you’re awake.</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-
-  <div class="section">
     <h2>🖥️ Setup & Commands</h2>
     <ol>
       <li><strong>Clone the repository</strong>
-<pre><code>git clone https://github.com/&lt;your-username&gt;/&lt;your-repo-name&gt;.git
-cd &lt;your-repo-name&gt;</code></pre>
+<pre><code>git clone https://github.com/Garv98/Drowsiness-Landmark-Detection.git
+cd Drowsiness-Landmark-Detection</code></pre>
       </li>
-      <li><strong>Create & activate a virtual environment</strong>
-<pre><code>python -m venv venv
-# macOS/Linux:
-source venv/bin/activate
-# Windows:
-venv\Scripts\activate</code></pre>
+      <li><strong>Create & activate a virtual environment</strong> (recommended)
+ <pre><code>python -m venv venv
+./venv/Scripts/Activate.ps1        # Windows</code></pre>
       </li>
       <li><strong>Install dependencies</strong>
 <pre><code>pip install -r requirements.txt</code></pre>
