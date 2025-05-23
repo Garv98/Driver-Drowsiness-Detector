@@ -59,7 +59,7 @@ driver-drowsiness-detector/
     <h2>⚙️ Installation</h2>
     <ol>
       <li><strong>Clone the repo</strong>
-        <pre><code>git clone https://github.com/&lt;your-username&gt;/driver-drowsiness-detector.git
+        <pre><code>git clone https://github.com/Garv98/Drowsiness-Landmark-Detection.git
 cd driver-drowsiness-detector</code></pre>
       </li>
       <li><strong>Create a virtual environment</strong> (recommended)
