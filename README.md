@@ -93,6 +93,48 @@ cd Drowsiness-Landmark-Detection</code></pre>
   </div>
 
   <div class="section">
+    <h2>🖥️ Setup & Commands</h2>
+    <ol>
+      <li><strong>Clone the repository</strong>
+<pre><code>git clone https://github.com/&lt;your-username&gt;/&lt;your-repo-name&gt;.git
+cd &lt;your-repo-name&gt;</code></pre>
+      </li>
+      <li><strong>Create & activate a virtual environment</strong>
+<pre><code>python -m venv venv
+# macOS/Linux:
+source venv/bin/activate
+# Windows:
+venv\Scripts\activate</code></pre>
+      </li>
+      <li><strong>Install dependencies</strong>
+<pre><code>pip install -r requirements.txt</code></pre>
+      </li>
+      <li><strong>Configure Kaggle API (optional)</strong>
+<pre><code># macOS/Linux:
+export KAGGLE_API=&lt;your_kaggle_key&gt;
+# Windows:
+set KAGGLE_API=&lt;your_kaggle_key&gt;</code></pre>
+      </li>
+      <li><strong>Download datasets</strong>
+<pre><code>python main.py --setup --download_datasets</code></pre>
+      </li>
+      <li><strong>Preprocess & train model</strong>
+<pre><code>python main.py \
+  --train_model Data/drowsiness-prediction-dataset \
+  --preprocess_data \
+  --epochs 5</code></pre>
+        <p>If already preprocessed:</p>
+<pre><code>python main.py \
+  --train_model Data/drowsiness-prediction-dataset \
+  --epochs 5</code></pre>
+      </li>
+      <li><strong>Launch the Streamlit app</strong>
+<pre><code>streamlit run drowsiness_detector/app.py</code></pre>
+      </li>
+    </ol>
+  </div>
+
+  <div class="section">
     <h2>🛠️ Training & Evaluation</h2>
     <p>To retrain or fine-tune the model, use <code>main.py</code>:</p>
     <pre><code># (1) Setup Kaggle (if downloading datasets via Kaggle API)
