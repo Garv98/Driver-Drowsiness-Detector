@@ -4,16 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Driver Drowsiness Detector README</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
-    h1, h2, h3 { color: #333; }
-    pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
-    code { background: #f4f4f4; padding: 2px 4px; }
-    ul { margin-left: 20px; }
-    .repo-structure { font-family: monospace; background: #f4f4f4; padding: 10px; }
-    .section { margin-bottom: 40px; }
-    .button { display: inline-block; padding: 8px 12px; background: #007bff; color: #fff; text-decoration: none; border-radius: 4px; }
-  </style>
 </head>
 <body>
   <h1>Driver Drowsiness Detector</h1>
