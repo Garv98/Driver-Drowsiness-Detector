@@ -116,17 +116,12 @@ export KAGGLE_API=&lt;your_kaggle_key&gt;
 set KAGGLE_API=&lt;your_kaggle_key&gt;</code></pre>
       </li>
       <li><strong>Download datasets</strong>
-<pre><code>python main.py --setup --download_datasets</code></pre>
+<pre><code>python drowsiness_detector/main.py --setup --download_datasets</code></pre>
       </li>
       <li><strong>Preprocess & train model</strong>
-<pre><code>python main.py \
-  --train_model Data/drowsiness-prediction-dataset \
-  --preprocess_data \
-  --epochs 5</code></pre>
+<pre><code>python drowsiness_detector/main.py --train_model Data/drowsiness-prediction-dataset --preprocess_data --epochs 5</code></pre>
         <p>If already preprocessed:</p>
-<pre><code>python main.py \
-  --train_model Data/drowsiness-prediction-dataset \
-  --epochs 5</code></pre>
+<pre><code>python drowsiness_detector/main.py --train_model Data/drowsiness-prediction-dataset --epochs 5</code></pre>
       </li>
       <li><strong>Launch the Streamlit app</strong>
 <pre><code>streamlit run drowsiness_detector/app.py</code></pre>
@@ -134,26 +129,7 @@ set KAGGLE_API=&lt;your_kaggle_key&gt;</code></pre>
     </ol>
   </div>
 
-  <div class="section">
-    <h2>🛠️ Training & Evaluation</h2>
-    <p>To retrain or fine-tune the model, use <code>main.py</code>:</p>
-    <pre><code># (1) Setup Kaggle (if downloading datasets via Kaggle API)
-python main.py --setup --download_datasets
 
-# (2) Preprocess and train
-python main.py --train_model Data/drowsiness-prediction-dataset --preprocess_data --epochs 5</code></pre>
-    <p>Training artifacts (models) will be saved to <code>drowsiness_detector/Models/</code> as timestamped <code>.h5</code> files.</p>
-  </div>
-
-  <div class="section">
-    <h2>❤️ Contributing</h2>
-    <p>Contributions welcome! Feel free to open issues or submit pull requests to improve detection accuracy, add new alert modes, or expand dataset support.</p>
-  </div>
-
-  <div class="section">
-    <h2>📄 License</h2>
-    <p>This project is licensed under the MIT License. See <a href="LICENSE">LICENSE</a> for details.</p>
-  </div>
 
   <div class="section">
     <h2>🌐 Live Demo (Optional)</h2>
@@ -166,9 +142,3 @@ python main.py --train_model Data/drowsiness-prediction-dataset --preprocess_dat
     </ol>
   </div>
 
-  <div class="section">
-    <h2>🙋‍♂️ Author</h2>
-    <p>Developed with ❤️ by <a href="https://github.com/&lt;your-username&gt;">Your Name</a></p>
-  </div>
-</body>
-</html>
