@@ -51,8 +51,7 @@ driver-drowsiness-detector/
         ├── Active Subjects
         └── Fatigue Subjects
 ├── Models                
-├── requirements.txt         # Python dependencies
-└── README.md                # this file
+└── requirements.txt         # Python dependencies
     </pre>
   </div>
 
