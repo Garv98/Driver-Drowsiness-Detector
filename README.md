@@ -64,8 +64,7 @@ cd driver-drowsiness-detector</code></pre>
       </li>
       <li><strong>Create a virtual environment</strong> (recommended)
         <pre><code>python -m venv venv
-source venv/bin/activate        # macOS/Linux
-venv\Scripts\activate         # Windows</code></pre>
+./venv/Scripts/Activate.ps1        # Windows</code></pre>
       </li>
       <li><strong>Install dependencies</strong>
         <pre><code>pip install -r requirements.txt</code></pre>
