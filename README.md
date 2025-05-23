@@ -41,9 +41,16 @@ driver-drowsiness-detector/
 ├── drowsiness_detector/
 │   ├── app.py               # main Streamlit application
 │   ├── core.py              # model loading & processing utilities
-│   └── Models/              # saved .h5 models
-├── Data/                    # (optional) local datasets for training
-├── main.py                  # script for training and evaluation
+│   └── main.py              # script for training and evaluation
+├── Data/
+    ├── drowsiness-prediction-dataset/
+        ├── 0 FaceImages/
+            ├── Active Subjects
+            └── Fatigue Subjects
+    └── landmarks/
+        ├── Active Subjects
+        └── Fatigue Subjects
+├── Models                
 ├── requirements.txt         # Python dependencies
 └── README.md                # this file
     </pre>
