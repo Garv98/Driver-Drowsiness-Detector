@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-  <h1>Driver Drowsiness Detector</h1>
+  <h1>Drowsiness Landmark Detection</h1>
   <p>A Streamlit-based application for detecting driver drowsiness using computer vision and a deep learning model. It supports real-time webcam monitoring and video file uploads, providing engaging alerts to help keep drivers awake and safe on the road.</p>
   <hr />
 
@@ -34,7 +34,7 @@
   <div class="section">
     <h2>📂 Repository Structure</h2>
     <pre class="repo-structure">
-driver-drowsiness-detector/
+Drowsiness-Landmark-Detection/
 ├── Assets/
 │   ├── Logo.png
 │   └── alarm.wav            # optional alarm sound
@@ -60,7 +60,7 @@ driver-drowsiness-detector/
     <ol>
       <li><strong>Clone the repo</strong>
         <pre><code>git clone https://github.com/Garv98/Drowsiness-Landmark-Detection.git
-cd driver-drowsiness-detector</code></pre>
+cd Drowsiness-Landmark-Detection</code></pre>
       </li>
       <li><strong>Create a virtual environment</strong> (recommended)
         <pre><code>python -m venv venv
