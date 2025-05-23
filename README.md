@@ -90,13 +90,6 @@ cd Drowsiness-Landmark-Detection</code></pre>
         </ul>
       </li>
     </ul>
-
-    <h3>Video File Prediction</h3>
-    <ol>
-      <li>Select <strong>Upload Video</strong> in the app menu.</li>
-      <li>Upload an MP4 file.</li>
-      <li>The app processes and displays the resulting video with red overlays on drowsy frames.</li>
-    </ol>
   </div>
 
   <div class="section">
